@@ -27,7 +27,6 @@ def visit_url(account_number):
 
 def complete_task(account_number):
     task_urls = [
-        f"https://dolphin-app-2-qkmuv.ondigitalocean.app/api/tasks/{account_number}/complete/4",
         f"https://dolphin-app-2-qkmuv.ondigitalocean.app/api/tasks/{account_number}/complete/5",
         f"https://dolphin-app-2-qkmuv.ondigitalocean.app/api/tasks/{account_number}/complete/6",
         f"https://dolphin-app-2-qkmuv.ondigitalocean.app/api/tasks/{account_number}/complete/8"
